@@ -1,10 +1,10 @@
-### 🚗 OLA Driver Attrition Prediction
-📌 Project Overview
+# 🚗 OLA Driver Attrition Prediction
+### 📌 Project Overview
 
 This project focuses on predicting driver attrition (whether a driver will leave the company or not) for Ola, an Indian transportation company providing ride-hailing services.
 As a Data Scientist in the Analytics Department, the goal is to analyze and model the driver data from 2019–2020 to identify key factors contributing to attrition and build predictive models using Ensemble Learning techniques.
 
-🧾 Problem Statement
+## 🧾 Problem Statement
 
 To predict whether a driver will leave the company or not based on their demographic, performance, and business-related data.
 
@@ -33,7 +33,7 @@ Handling Imbalanced Dataset
 
 Feature Engineering and Aggregation
 
-🧩 Tasks Performed
+## 🧩 Tasks Performed
 1️⃣ Exploratory Data Analysis (EDA)
 
 Checked data shape and data types
@@ -44,7 +44,7 @@ Conducted univariate analysis (distribution plots, histograms)
 
 Performed bivariate analysis (correlation plots, pair plots)
 
-2️⃣ Data Pre-processing
+## 2️⃣ Data Pre-processing
 a. Data Type Conversion
 
 Converted date columns (Date_of_Joining, Last_Working_Date, MMMM-YY) to datetime format
@@ -89,7 +89,7 @@ i. Scaling
 
 Applied StandardScaler / MinMaxScaler for normalization
 
-3️⃣ Model Building
+## 3️⃣ Model Building
 
 Applied multiple ensemble learning methods:
 
@@ -107,7 +107,7 @@ Implemented XGBoost with hyperparameter tuning
 
 Combined multiple base learners to improve performance
 
-4️⃣ Model Evaluation
+## 4️⃣ Model Evaluation
 a. Classification Report
 
 Displayed precision, recall, F1-score, and accuracy for each model
@@ -122,16 +122,8 @@ Identified key factors influencing driver attrition
 
 Compared model performance and discussed trade-offs
 
-📊 Results Summary
-Model	Accuracy	Precision	Recall	F1-Score	ROC-AUC
-Random Forest (Bagging)	...	...	...	...	...
-GBDT (Boosting)	...	...	...	...	...
-XGBoost (Boosting + Tuning)	...	...	...	...	...
-Stacking Classifier	...	...	...	...	...
 
-(Fill actual results after training)
-
-💡 Key Insights
+## 💡 Key Insights
 
 Drivers with low quarterly ratings, low income growth, and lower grades were more likely to leave.
 
@@ -139,7 +131,7 @@ Boosting models (especially XGBoost) provided superior performance due to better
 
 Feature engineering significantly improved model interpretability and accuracy.
 
-🧰 Technologies Used
+## 🧰 Technologies Used
 Category	Tools / Libraries
 Language	Python
 Data Analysis	Pandas, NumPy
@@ -148,23 +140,7 @@ Machine Learning	Scikit-learn, XGBoost
 Imputation	KNNImputer
 Imbalance Handling	SMOTE
 Model Evaluation	Scikit-learn metrics
-📁 Project Structure
-📦 OLA_Driver_Attrition_Prediction
-│
-├── 📄 README.md
-├── 📊 OLA_Driver_Attrition.ipynb
-├── 📂 data/
-│   ├── ola_driver_data.csv
-│
-├── 📂 models/
-│   ├── random_forest.pkl
-│   ├── xgboost.pkl
-│
-├── 📂 visuals/
-│   ├── correlation_heatmap.png
-│   ├── roc_curves.png
-│
-└── 📄 requirements.txt
+
 
 🏁 Conclusion
 
