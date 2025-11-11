@@ -42,7 +42,6 @@ Displayed statistical summary of all attributes
 
 Conducted univariate analysis (distribution plots, histograms)
 
-Performed bivariate analysis (correlation plots, pair plots)
 
 ## 2️⃣ Data Pre-processing
 a. Data Type Conversion
